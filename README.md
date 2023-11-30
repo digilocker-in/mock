@@ -2,21 +2,16 @@
 
 Mock server for Digilocker APIs.
 
-## Start
+### Start
 
 ```bash
-$ npm run start:dev
-```
-
-OR
-
-```bash
-$ yarn start:dev
+npm install
+npm run start:dev
 ```
 
 ---
 
-## Default configuration
+### Default configuration
 
 <details>
   <summary>Click to expand</summary>
@@ -83,8 +78,8 @@ $ yarn start:dev
 
 ---
 
-## Routes
+### Routes
 
-### Discovery: [/oidc/.well-known/openid-configuration](http://localhost:3001/oidc/.well-known/openid-configuration)
+#### Discovery: [/oidc/.well-known/openid-configuration](http://localhost:3001/oidc/.well-known/openid-configuration)
 
-### Authorization: [/oidc/auth](http://localhost:3001/oidc/auth?client_id=test&response_type=code&redirect_uri=http://localhost:3001/callback&scope=openid+email)
+#### Authorization: [/oidc/auth](http://localhost:3001/oidc/auth?client_id=test&response_type=code&redirect_uri=http://localhost:3001/callback&scope=openid+email)
